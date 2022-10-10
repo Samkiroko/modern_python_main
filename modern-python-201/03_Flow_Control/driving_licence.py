@@ -19,7 +19,7 @@ else:
 # After a couple of years
 # ----------------------------------------------------
 
-age: int = 19
+age: int = 100
 
 
 # if age < 16:
@@ -32,7 +32,20 @@ age: int = 19
 # Alternative Implementation - Without `Else` Block
 # ----------------------------------------------------
 
+# if age < 16:
+#     print("You are NOT eligible for a license")
+
+# print("You are eligible for license")
+
+
+# ----------------------------------------------------
+# Alternative Implementation - With elif
+# ----------------------------------------------------
+
+
 if age < 16:
     print("You are NOT eligible for a license")
-
-print("You are eligible for license")
+elif(age >= 100):
+  print("Too old to drive")
+else:
+    print("You are eligible for license")
