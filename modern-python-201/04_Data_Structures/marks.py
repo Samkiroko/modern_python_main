@@ -113,7 +113,7 @@ else:
     print(f"Louis score {java_score} in Java")
 
 # ---------------------------------------------------------------------------
-# Louis want to delect English form marks dict
+# Louis want to delict English form marks dict
 # ---------------------------------------------------------------------------
 
 del marks["English"]
